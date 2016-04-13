@@ -63,7 +63,7 @@ listen hastats
 ##Start Proxy
 
 ```
-sudo haproxy -f haproxy.cfg
+sudo haproxy -f conf/haproxy.cfg
 ```
 
 
