@@ -6,9 +6,17 @@ Mac で HAProxy のテスト
 git clone https://github.com/kminiatures/haproxy-osx-sample
 cd haproxy-osx-sample
 brew install haproxy
-sh ./start_web1.sh
-sh ./start_web2.sh
 sh ./start_haproxy.sh
+```
+
+別のターミナルで
+```
+sh ./start_web1.sh
+```
+
+さらに別のターミナルで
+```
+sh ./start_web2.sh
 ```
 
 # HAProxy
