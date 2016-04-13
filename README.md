@@ -19,6 +19,9 @@ sh ./start_web1.sh
 sh ./start_web2.sh
 ```
 
+そしてブラウザで `http://localhost` にアクセスすると、WEBRick の二つのターミナルへ、交互にアクセスのログが出力される。
+
+
 # HAProxy
 
 ## Install
